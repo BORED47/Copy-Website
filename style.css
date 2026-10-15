@@ -2,6 +2,21 @@ body{
     background-color: rgb(28, 69, 135);
     color: white;
 }
+
+.sideBar{
+    position: sticky;
+    color: black;
+    background-color: yellow;
+
+    #bars{
+        text-align: left;
+        font-size: 30px;
+        border-width: 1px;
+        border-color: black;
+        margin: 0;
+    }
+}
+
 #MainHead{
     text-align: left;
     font-size: 70px;
