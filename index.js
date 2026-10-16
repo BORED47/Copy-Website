@@ -34,3 +34,4 @@ function changeImg2(){
 function hideBar(){
 
 }
+
