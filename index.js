@@ -31,7 +31,17 @@ function changeImg2(){
     }
 }
 
-function hideBar(){
+function changeBColor(){
 
+}
+
+function hideBar(){
+    let barH = document.querySelector("#sideBar");
+    if(barH.style.display === "flex"){
+        barH.style.display = "none";
+    }
+    else if(barH.style.display === "none"){
+        barH.style.display = "flex";
+    }
 }
 
