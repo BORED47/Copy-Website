@@ -32,16 +32,21 @@ function changeImg2(){
 }
 
 function changeBColor(){
+    let sideNames = document.getElementsByClassName(".sideBar");
 
 }
 
 function hideBar(){
-    let barH = document.querySelector("#sideBar");
-    if(barH.style.display === "flex"){
+    let barH = document.querySelector(".sideBar");
+    if(barH.style.display === "block"){
         barH.style.display = "none";
+        barH.style.borderColor = "white";
+        barH.style.color = "white";
     }
-    else if(barH.style.display === "none"){
-        barH.style.display = "flex";
+    else{
+        barH.style.display = "block";
+        barH.style.borderColor = "black";
+        barH.style.color = "black";
     }
 }
 

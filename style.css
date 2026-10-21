@@ -10,7 +10,7 @@ body{
 }
 
 #bars{
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
@@ -33,8 +33,9 @@ body{
     top: 0;
     left: 0;
     bottom: 0;
-    width: 300px;
+    width: 500px;
     height: 100vh;
+    padding: 40px;
 
     display: flex;
     flex-direction: column;
@@ -45,12 +46,18 @@ body{
     text-align: center;
 
     #sideHeader{
-        cursor: pointer;
-        font-size: 20px;
+        h2{
+            cursor: pointer;
+            font-size: 20px;
+        }
+        h3{
+            cursor: pointer;
+            font-size: 20px;
+        }
     }
     #sideCourses{
         cursor: pointer;
-        font-size: 10px;
+        font-size: 8px;
     }
     #sideExtras{
         cursor: pointer;
@@ -65,8 +72,7 @@ body{
     }
 }
 #restPage{
-
-
+    margin: 10px;
 }
 
 #MainHead{
