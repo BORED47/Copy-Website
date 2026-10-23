@@ -33,7 +33,7 @@ body{
     top: 0;
     left: 0;
     bottom: 0;
-    width: 500px;
+    width: 100vh;
     height: 100vh;
     padding: 40px;
 
@@ -48,27 +48,40 @@ body{
     #sideHeader{
         h2{
             cursor: pointer;
-            font-size: 20px;
+            text-align: center;
+            font-size: 25px;
+            width: 200px;
+            margin: 0;
         }
         h3{
             cursor: pointer;
             font-size: 20px;
+            width: 200px;
+            margin: 10px;
         }
     }
     #sideCourses{
         cursor: pointer;
-        font-size: 8px;
+        font-size: 20px;
+        width: 200px;
+        margin: 0;
     }
     #sideExtras{
         cursor: pointer;
-        font-size: 10px;
+        font-size: 20px;
+        width: 200px;
+        margin: 0;
     }
     #sideColleges{
         cursor: pointer;
-        font-size: 10px;
+        font-size: 20px;
+        width: 200px;
+        margin: 0;
     }
     p{
-        font-size: 10px;
+        font-size: 15px;
+        width: 200px;
+        margin: 8px;
     }
 }
 #restPage{
@@ -183,4 +196,8 @@ a{
         grid-row: span 1;
 
     }
+}
+
+.sideBar [onclick]:hover{
+    background-color: white;
 }

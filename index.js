@@ -31,11 +31,6 @@ function changeImg2(){
     }
 }
 
-function changeBColor(){
-    let sideNames = document.getElementsByClassName(".sideBar");
-
-}
-
 function hideBar(){
     let barH = document.querySelector(".sideBar");
     if(barH.style.display === "block"){
@@ -48,5 +43,16 @@ function hideBar(){
         barH.style.borderColor = "black";
         barH.style.color = "black";
     }
+}
+function toggle(id){
+    const li = document.getElementById(id);
+
+    if(li.style.display === "block"){
+        li.style.display = "none";
+    }else{
+        li.style.display = "block";
+    }
+
+
 }
 
